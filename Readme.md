@@ -1,3 +1,4 @@
+```
 docker build -t tomcat8 .
 docker tag tomcat8 dvillaj/tomcat8:latest
 docker push dvillaj/tomcat8:latest
@@ -10,3 +11,4 @@ oc new-app dvillaj/tomcat8:latest
 
 oc expose service tomcat8
 oc status
+```
